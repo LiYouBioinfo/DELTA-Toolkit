@@ -21,29 +21,29 @@ All dependencies for DELTA toolkit are listed below.
 * [samtools](http://www.htslib.org/)
 
 ### Install cutadapt via pip
-> pip install --user --upgrade cutadapt
+`pip install --user --upgrade cutadapt`
 
 ### Install java JDK1.8 
 Use the following command with caution. You may want to customize the installation.
-> yum install java-1.8.0-openjdk* -y
+`yum install java-1.8.0-openjdk* -y`
 
 ### Install R version 3.4.1 or higher
-> yum install epel-release \
-> yum install R
+`yum install epel-release` \
+`yum install R`
 
 ### in R, install the following packages
->	install.packages("ggplot2"); \
->	install.packages("gridExtra"); \
->	install.packages("reshape2");
+`install.packages("ggplot2");` \
+`install.packages("gridExtra");` \
+`install.packages("reshape2");`
 
 ### Install samtools
-> wget https://github.com/samtools/samtools/releases/download/1.9/samtools-1.9.tar.bz2 \
-> tar jxf samtools-1.9.tar.bz2 \
-> cd samtools-1.9/ \
-> ./configure --prefix=/where/to/install \
-> make \
-> make install \
-> export PATH=/where/to/install/bin:$PATH
+`wget https://github.com/samtools/samtools/releases/download/1.9/samtools-1.9.tar.bz2` \
+`tar jxf samtools-1.9.tar.bz2` \
+`cd samtools-1.9/` \
+`./configure --prefix=/where/to/install` \
+`make` \
+`make install` \
+`export PATH=/where/to/install/bin:$PATH` \
 
 make sure when you type "samtools", the description of the tool is shown in the terminal.
 
@@ -64,7 +64,7 @@ Or click the link below for the email template:
 
 ### Deploy DEL_AnalysisToolkit_NAR.jar
 **DEL_AnalysisToolkit_NAR.jar** is a compiled executable jar file that requires no installation. Simply put the jar file in your local directory and invoke the toolkit by using the following command:
-> java -jar /path/to/your/DEL_AnalysisToolkit_NAR.jar
+`java -jar /path/to/your/DEL_AnalysisToolkit_NAR.jar`
 
 Please note that although executable jar file should be platform-independent. However, the software package was only extensively tested in the linux/unix like system. Therefore, the performance of this package is not guaranteed in Mac OS or Windows OS.
 

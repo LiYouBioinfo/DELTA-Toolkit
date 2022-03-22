@@ -20,6 +20,10 @@ All dependencies for DELTA toolkit are listed below.
 * [R (with ggplot2, gridExtra and reshape2)](https://www.r-project.org/)
 * [samtools](http://www.htslib.org/)
 
+**Optional Softwares**
+DataWarrior is not required for running the DELTA toolkit. However, it is needed for downstream file visualization (DELTA toolkit creates output for each DEL in *.dwar format).
+* [DataWarrior](https://openmolecules.org/datawarrior/)
+
 ### Install cutadapt via pip
 ```
 pip install --user --upgrade cutadapt

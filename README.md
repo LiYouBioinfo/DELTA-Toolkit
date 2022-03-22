@@ -70,3 +70,6 @@ Please note that although executable jar file should be platform-independent. Ho
 
 # Get started
 Read the user manual here: https://github.com/LiYouBioinfo/DELTA-Toolkit/wiki
+
+# FAQs (or report a bug)
+Please check the [issue](https://github.com/LiYouBioinfo/DELTA-Toolkit/issues) page before posting.

@@ -21,8 +21,8 @@ All dependencies for DELTA toolkit are listed below.
 * [samtools](http://www.htslib.org/)
 
 **Optional Softwares**
+* [DataWarrior](https://openmolecules.org/datawarrior/) \
 DataWarrior is not required for running the DELTA toolkit. However, it is needed for downstream file visualization (DELTA toolkit creates output for each DEL in *.dwar format).
-* [DataWarrior](https://openmolecules.org/datawarrior/)
 
 ### Install cutadapt via pip
 ```

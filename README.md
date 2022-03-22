@@ -64,5 +64,7 @@ Or click the link below for the email template:
 **DEL_AnalysisToolkit_NAR.jar** is a compiled executable jar file that requires no installation. Simply put the jar file in your local directory and invoke the toolkit by using the following command:
 > java -jar /path/to/your/DEL_AnalysisToolkit_NAR.jar
 
+Please note that although executable jar file should be platform-independent. However, the software package was only extensively tested in the linux/unix like system. Therefore, the performance of this package is not guaranteed in Mac OS or Windows OS.
+
 ### Get started
 Read the user manual here: https://github.com/LiYouBioinfo/DELTA-Toolkit/wiki

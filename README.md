@@ -19,6 +19,7 @@ All dependencies for DELTA toolkit are listed below.
 * [java jdk (or jre) v1.8 or above](https://www.oracle.com/java/technologies/downloads/)
 * [R (with ggplot2, gridExtra and reshape2)](https://www.r-project.org/)
 * [samtools](http://www.htslib.org/)
+* [pigz](https://zlib.net/pigz/)
 
 **Optional Softwares**
 * [DataWarrior](https://openmolecules.org/datawarrior/) \

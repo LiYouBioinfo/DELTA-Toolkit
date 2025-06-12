@@ -75,7 +75,7 @@ Email Body:
 > Company/Institute：XXXXXX 
 
 Or click the link below for the email template: 
-<a href="mailto:you.li@hitgen.com?subject=[DELTA]%20Requesting%20a%20copy%20of%20DELTA%20toolkit.&body=Name:%0d%0aCompany/Institute">Requesting for a copy of DELTA toolkit</a>
+<a href="mailto:opendel@hitgen.com?subject=[DELTA]%20Requesting%20a%20copy%20of%20DELTA%20toolkit.&body=Name:%0d%0aCompany/Institute">Requesting for a copy of DELTA toolkit</a>
 
 ### Deploy DEL_AnalysisToolkit_NAR.jar
 **DEL_AnalysisToolkit_NAR.jar** is a compiled executable jar file that requires no installation. Simply put the jar file in your local directory and invoke the toolkit by using the following command: 
